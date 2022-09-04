@@ -2,15 +2,15 @@
     "steps": [
       {
         "key": "first",
-        "color": "purple"
+        "value": "purple"
       },
       {
         "key": "second",
-        "color": "pink"
+        "value": "pink"
       },
       {
         "key": "third",
-        "color": "green"
+        "value": "green"
       }
     ],
     "durations": {
