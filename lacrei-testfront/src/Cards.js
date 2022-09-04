@@ -15,7 +15,6 @@ const Cards = (props) => {
   }, [props.color, props.timer]);
 
   return (
-    <>
       <Box
         sx={{
           alignItems: 'center',
@@ -32,7 +31,6 @@ const Cards = (props) => {
         {background === 'transparent' ? <BounceLoader color={props.color} size={30} /> : ""}
         {message && <p><strong>Duração do ciclo</strong> = {props.timer} ms</p>}
       </Box>
-    </>
   );
 };
 
